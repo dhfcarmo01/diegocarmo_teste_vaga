@@ -1,0 +1,34 @@
+Resposta questão 2) A linguagem utilizada para resolução do referido item é o "Visual Basic for Applications - VBA":
+
+Sub Fibonacci()
+
+    Dim Inserido As Integer
+    Dim Fibonacci As Integer
+    Dim Penultimo As Integer
+    Dim Ultimo As Integer
+    
+    Inserido = InputBox("Insira um valor inteiro e maior que zero")
+    Penultimo = 0
+    Ultimo = 1
+    
+        While Inserido >= Ultimo
+            
+            Fibonacci = Penultimo + Ultimo
+            Penultimo = Ultimo
+            Ultimo = Fibonacci
+            MsgBox Penultimo
+              
+        Wend
+        
+        If Inserido = Penultimo Then
+            
+            MsgBox "O número inserido corresponde a um número Fibonacci"
+            
+            Else
+                
+                MsgBox "O número inserido não corresponde a um número Fibonacci"
+                    
+        End If
+
+    
+End Sub
