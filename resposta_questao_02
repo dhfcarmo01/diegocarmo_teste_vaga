@@ -1,5 +1,3 @@
-Resposta questão 2) A linguagem utilizada para resolução do referido item é o "Visual Basic for Applications - VBA":
-
 Sub Fibonacci()
 
     Dim Inserido As Integer
