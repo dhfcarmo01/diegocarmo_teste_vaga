@@ -2,7 +2,7 @@
 
 Resposta questão 1) Ao final do processamento, SOMA = 91.
 
-Resposta questão 2)
+Resposta questão 2) A linguagem utilizada para resolução do referido item é o "Visual Basic for Applications - VBA".
 
 Resposta questão 3) a = 9; b = 128; c = 49; d = 100; e = 13; f = 200;
 
